@@ -190,7 +190,7 @@ def extend_src_data(src_data, src_grid, global_src_grid, temp_or_salt):
     return global_src_data
 
 
-@numba.jit
+#@numba.jit
 def apply_weights(src, dest_shape, n_s, n_b, row, col, s):
     """
     Apply ESMF regirdding weights.
